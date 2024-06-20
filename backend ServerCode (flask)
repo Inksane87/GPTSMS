@@ -1,0 +1,23 @@
+from flask  import Flask, request, jsonify 
+import openai 
+
+app = flask(__name__) 
+
+openai.api_jkey = 'Your_openai_api_Key'
+
+@app.route('/chat', methods=['post']) 
+def chat():
+	data = request.json 
+	message = data.get('message') 
+	
+	response = openai.Completion.create(
+		engine='text-davinci-003',
+		prompt=message 
+		max=token=150
+	)
+	
+	return jsonify({'response':
+response.choice[0].text.strip()})
+
+if __name__ == "__main__':
+	app.run(host='0.0.0.0', port=5000) 
