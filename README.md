@@ -6,4 +6,4 @@ tools that are provided by shortcuts on iOS and a backend server
 
 By Following these steps, youll have an automated system where you can type a message, run the shortcut, and get response from chatGPT on your APPLE Device 
 if you need any assistance or Modifications, feel free to ask!  Also be aware that a subscription maybe be needed for ChatGPT. other then that Flask can be 
-accessed through Kali Linux, Server for Backend AWS are free. USA location 
+accessed through Kali Linux, Server for Backend AWS are free. USA location...you can support this and others to come via cashapp $inkedone87  
