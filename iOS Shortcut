@@ -1,0 +1,17 @@
+# open the Shortcuts app on your Iphone 
+# create a new shortcut
+# add action
+web > Get Contents of URL: 
+  URL:https//your-backend-server/chat
+  method:POST 
+  request Body: JSON with message as the key and your input text as the value. 
+# add action
+   Scripting > Get Dictionary Value to extract  the response test from the JSON returned by your server
+# add action 
+  Scripting > show Results to display the response.
+
+**********NOTE********** 
+
+Make sure to replace "YOUR_OPENAI_API_KEY' with your actual OpenAI API key and Deploy the server to a LIVE URL.
+
+**********NOTE**********
